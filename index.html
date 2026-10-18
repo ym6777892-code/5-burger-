@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>5Burger | المنيو</title>
+<meta name="description" content="منيو 5Burger: برجر سنجل ودبل، كومبو، مقبلات، مشروبات، سلطات وأصناف جانبية.">
+<meta name="theme-color" content="#f4ebe4">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23e24a0d'/%3E%3Ctext x='32' y='43' font-size='30' font-weight='800' text-anchor='middle' fill='%23f4ebe4' font-family='Arial'%3E5B%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#menu" data-i18n="skip">إلى المنيو</a>
+
+<header class="top" id="top">
+  <div class="bar wrap">
+    <a class="brand" href="#top" aria-label="5Burger">
+      <span class="logo"><img src="logo.jpg" alt="5Burger" width="1080" height="1080" decoding="async"></span>
+      <span class="mark" aria-hidden="true">5B</span>
+    </a>
+    <button class="lang" id="langBtn" type="button" lang="en">English</button>
+  </div>
+  <nav class="cats" id="catNav" aria-label="أقسام المنيو" data-i18n-aria="navLabel"></nav>
+</header>
+
+<main>
+  <section class="hero wrap">
+    <h1 data-i18n="heroTitle">برجر بطابع مختلف</h1>
+    <p data-i18n="heroSub">المنيو · الأسعار بالجنيه المصري</p>
+  </section>
+
+  <div class="wrap" id="menu">
+    <div class="filters" id="filters" role="group" aria-label="تصفية البرجر" data-i18n-aria="filterLabel"></div>
+    <div id="sections"></div>
+
+    <aside class="vat" role="note"><p data-i18n="vat">الأسعار غير شاملة ضريبة القيمة المضافة</p></aside>
+  </div>
+</main>
+
+<footer class="foot">
+  <span class="mark" aria-hidden="true">5B</span>
+  <p>© <span id="year"></span> 5Burger</p>
+</footer>
+
+<button class="btt" id="btt" type="button" aria-label="للأعلى" data-i18n-aria="toTop">
+  <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M6 14l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="script.js"></script>
+</body>
+</html>
