@@ -23,8 +23,8 @@ const it = (en, ar, p, da = '', de = '') => ({ en, ar, p, d: { ar: da, en: de } 
 
 // [en, ar, ingredients ar, ingredients en, [single, double, single combo, double combo]]
 const BURGERS = [
-  ['Five Classic',  'فايف كلاسيك', 'بيف بيكون، جبنة، بصل مكرمل', 'beef bacon, cheese, caramelized onions', [145, 190, 195, 240]],
-  ['Mushroom Melt', 'ماشروم ميلت', 'مشروم، صوص جبنة',            'mushrooms, cheese sauce',                [190, 240, 240, 290]],
+  ['Five Classic',  'فايف كلاسيك', 'طماطم فريش، جبنة، بصل فريش', 'tomatoes, cheese, onions', [145, 190, 195, 240]],
+  ['Mushroom Melt', 'ماشروم ميلت', 'طماطم فريش، مشروم، صوص جبنة',            'mushrooms, cheese sauce',                [190, 240, 240, 290]],
   ['Texas Melt',    'تكساس ميلت',  'صوص تكساس، بصل مكرمل',       'Texas sauce, caramelized onions',        [185, 235, 235, 285]],
   ['Sweet Crunch',  'سويت كرانش',  'بيف بيكون، سويت تشيلي',      'beef bacon, sweet chili',                [205, 255, 255, 305]],
   ['Ranch Bacon',   'رانش بيكون',  'بيف بيكون، صوص رانش',        'beef bacon, ranch sauce',                [195, 245, 245, 295]],
